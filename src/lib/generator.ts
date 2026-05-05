@@ -104,7 +104,7 @@ function generatePassword(
 function generateDateOfBirth(): { dob: string; age: number } {
   const now = new Date();
   const minAge = 18;
-  const maxAge = 80;
+  const maxAge = 45;
   const age = Math.floor(Math.random() * (maxAge - minAge + 1)) + minAge;
   const birthYear = now.getFullYear() - age;
   const birthMonth = Math.floor(Math.random() * 12) + 1;
