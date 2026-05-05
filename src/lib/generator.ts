@@ -64,28 +64,41 @@ function generateEmail(firstName: string, lastName: string, domain: string): str
   return pick(patterns)();
 }
 
-function generatePassword(): string {
-  const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const lower = "abcdefghijklmnopqrstuvwxyz";
-  const digits = "0123456789";
-  const special = "!@#$%^&*";
+function generatePassword(
+  firstName: string,
+  lastName: string,
+  birthYear: number
+): string {
+  const fn = firstName.toLowerCase().replace(/[^a-z]/g, "");
+  const ln = lastName.toLowerCase().replace(/[^a-z]/g, "");
 
-  const length = Math.floor(Math.random() * 6) + 12;
-  const chars = upper + lower + digits + special;
+  const specials = ["!", "@", "#", "$"];
+  const separators = ["", ".", "_"];
 
-  let password = "";
-  // Ensure at least one of each
-  password += pick(upper.split(""));
-  password += pick(lower.split(""));
-  password += pick(digits.split(""));
-  password += pick(special.split(""));
+  const shortYear = birthYear.toString().slice(-2);
+  const fullYear = birthYear.toString();
 
-  for (let i = 4; i < length; i++) {
-    password += pick(chars.split(""));
+  const patterns = [
+    () => `${fn}${ln}${shortYear}`,
+    () => `${fn}.${ln}${shortYear}`,
+    () => `${fn}_${ln}${shortYear}`,
+    () => `${fn}${ln}${Math.floor(Math.random() * 99) + 1}`,
+    () => `${fn[0]}${ln}${shortYear}`,
+    () => `${fn}${ln}${fullYear}`,
+    () => `${ln}${fn}${shortYear}`,
+    () => `${fn}${separators[Math.floor(Math.random() * separators.length)]}${ln}${specials[Math.floor(Math.random() * specials.length)]}`,
+    () => `${fn}${shortYear}${specials[Math.floor(Math.random() * specials.length)]}`,
+    () => `${fn}${ln}${shortYear}${specials[Math.floor(Math.random() * specials.length)]}`,
+  ];
+
+  let password = pick(patterns)();
+
+  // Ensure minimum length (8–12)
+  if (password.length < 8) {
+    password += Math.floor(Math.random() * 999);
   }
 
-  // Shuffle
-  return password.split("").sort(() => Math.random() - 0.5).join("");
+  return password.slice(0, 12);
 }
 
 function generateDateOfBirth(): { dob: string; age: number } {
@@ -118,8 +131,9 @@ export function generateIdentity(
   const username = generateUsername(firstName, lastName);
   const domain = pick(country.emailDomains);
   const email = generateEmail(firstName, lastName, domain);
-  const password = generatePassword();
   const { dob, age } = generateDateOfBirth();
+  const birthYear = parseInt(dob.split("-")[0]);
+  const password = generatePassword(firstName, lastName, birthYear);
 
   return {
     country,
