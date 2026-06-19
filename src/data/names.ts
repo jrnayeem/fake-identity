@@ -13,7 +13,7 @@ export const countries: CountryData[] = [
     code: "DE",
     name: "Germany",
     flag: "🇩🇪",
-    emailDomains: ["gmail.com", "web.de", "gmx.de", "t-online.de", "yahoo.de", "outlook.de", "freenet.de"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexander","Benjamin","Christian","Daniel","Emanuel","Felix","Georg","Hans","Igor","Jakob",
       "Klaus","Ludwig","Markus","Niklas","Oliver","Patrick","Quentin","Robert","Stefan","Thomas",
@@ -102,7 +102,7 @@ export const countries: CountryData[] = [
     code: "FR",
     name: "France",
     flag: "🇫🇷",
-    emailDomains: ["gmail.com", "orange.fr", "free.fr", "sfr.fr", "laposte.net", "hotmail.fr", "wanadoo.fr"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexandre","Baptiste","Charles","David","Émile","François","Gabriel","Henri","Ivan","Julien",
       "Kévin","Louis","Mathieu","Nicolas","Olivier","Pierre","Quentin","Romain","Simon","Thomas",
@@ -194,7 +194,7 @@ export const countries: CountryData[] = [
     code: "ES",
     name: "Spain",
     flag: "🇪🇸",
-    emailDomains: ["gmail.com", "hotmail.es", "yahoo.es", "outlook.es", "telefonica.net", "terra.es"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alejandro","Bruno","Carlos","Diego","Enrique","Fernando","Gabriel","Héctor","Ignacio","Javier",
       "Kevin","Luis","Manuel","Nicolás","Oscar","Pablo","Ramón","Santiago","Tomás","Uriel",
@@ -286,7 +286,7 @@ export const countries: CountryData[] = [
     code: "IT",
     name: "Italy",
     flag: "🇮🇹",
-    emailDomains: ["gmail.com", "libero.it", "alice.it", "tiscali.it", "virgilio.it", "fastweb.it"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alessandro","Bruno","Carlo","Davide","Emanuele","Francesco","Giovanni","Luca","Marco","Nicola",
       "Onofrio","Paolo","Riccardo","Silvio","Tommaso","Umberto","Vincenzo","Antonio","Bernardo","Cesare",
@@ -378,7 +378,7 @@ export const countries: CountryData[] = [
     code: "PL",
     name: "Poland",
     flag: "🇵🇱",
-    emailDomains: ["gmail.com", "onet.pl", "wp.pl", "interia.pl", "o2.pl", "gazeta.pl"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Adam","Bartosz","Cezary","Damian","Emil","Filip","Grzegorz","Henryk","Igor","Jakub",
       "Kamil","Leszek","Marek","Norbert","Oskar","Paweł","Rafał","Szymon","Tomasz","Ulrich",
@@ -468,7 +468,7 @@ export const countries: CountryData[] = [
     code: "NL",
     name: "Netherlands",
     flag: "🇳🇱",
-    emailDomains: ["gmail.com", "hotmail.nl", "ziggo.nl", "kpnmail.nl", "outlook.com", "planet.nl"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexander","Bas","Christaan","Daan","Emil","Floris","Gerrit","Harm","Ivo","Joost",
       "Kevin","Lars","Maarten","Niels","Oliver","Pieter","Quinten","Remi","Sander","Thomas",
@@ -559,7 +559,7 @@ export const countries: CountryData[] = [
     code: "SE",
     name: "Sweden",
     flag: "🇸🇪",
-    emailDomains: ["gmail.com", "hotmail.se", "outlook.se", "telia.com", "spray.se", "yahoo.se"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Anders","Björn","Carl","David","Erik","Fredrik","Gustav","Henrik","Ivan","Johan",
       "Karl","Lars","Mikael","Niklas","Oskar","Patrik","Robert","Stefan","Thomas","Ulf",
@@ -646,7 +646,7 @@ export const countries: CountryData[] = [
     code: "NO",
     name: "Norway",
     flag: "🇳🇴",
-    emailDomains: ["gmail.com", "hotmail.no", "outlook.no", "telenor.no", "online.no", "start.no"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Anders","Bjørn","Christian","Dag","Erik","Fredrik","Gunnar","Hans","Ivar","Johan",
       "Kjell","Lars","Magnus","Nils","Olav","Per","Ragnar","Sigurd","Thomas","Ulrik",
@@ -735,7 +735,7 @@ export const countries: CountryData[] = [
     code: "DK",
     name: "Denmark",
     flag: "🇩🇰",
-    emailDomains: ["gmail.com", "hotmail.dk", "outlook.dk", "live.dk", "yahoo.dk", "post.dk"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Anders","Bjørn","Christian","David","Emil","Frederik","Gustav","Hans","Ivan","Jacob",
       "Karl","Lars","Martin","Niels","Oliver","Peder","Rasmus","Simon","Thomas","Ulrik",
@@ -824,7 +824,7 @@ export const countries: CountryData[] = [
     code: "FI",
     name: "Finland",
     flag: "🇫🇮",
-    emailDomains: ["gmail.com", "hotmail.fi", "outlook.fi", "live.fi", "suomi24.fi", "welho.fi"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aleksi","Eemeli","Juhani","Mikael","Petteri","Sami","Tomi","Valtteri","Aapo","Eerikki",
       "Jussi","Mika","Paavo","Risto","Tapani","Ville","Aatos","Elias","Joona","Miika",
@@ -910,7 +910,7 @@ export const countries: CountryData[] = [
     code: "GR",
     name: "Greece",
     flag: "🇬🇷",
-    emailDomains: ["gmail.com", "hotmail.gr", "yahoo.gr", "outlook.gr", "forthnet.gr", "otenet.gr"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexandros","Athanasios","Christos","Dimitrios","Eleftherios","Fotios","Georgios","Nikolaos","Ioannis","Konstantinos",
       "Leonidas","Michail","Nikos","Odysseas","Panagiotis","Petros","Stavros","Theodoros","Vasileios","Christodulos",
@@ -994,7 +994,7 @@ export const countries: CountryData[] = [
     code: "PT",
     name: "Portugal",
     flag: "🇵🇹",
-    emailDomains: ["gmail.com", "hotmail.com", "sapo.pt", "live.com", "outlook.pt", "yahoo.pt"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Afonso","Bruno","Carlos","Diogo","Eduardo","Francisco","Gonçalo","Henrique","Ivo","João",
       "Luís","Marcos","Nuno","Óscar","Pedro","Rui","Sérgio","Tiago","Vítor","Alexandre",
@@ -1083,7 +1083,7 @@ export const countries: CountryData[] = [
     code: "BE",
     name: "Belgium",
     flag: "🇧🇪",
-    emailDomains: ["gmail.com", "hotmail.be", "outlook.be", "skynet.be", "telenet.be", "proximus.be"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexander","Baptiste","Charles","David","Emile","Florian","Guillaume","Henri","Ivan","Julien",
       "Kevin","Laurent","Mathieu","Nicolas","Olivier","Pierre","Quentin","Romain","Simon","Thomas",
@@ -1174,7 +1174,7 @@ export const countries: CountryData[] = [
     code: "AT",
     name: "Austria",
     flag: "🇦🇹",
-    emailDomains: ["gmail.com", "a1.net", "aon.at", "chello.at", "gmx.at", "hotmail.com"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexander","Benedikt","Christoph","David","Emil","Felix","Georg","Hans","Igor","Jakob",
       "Klaus","Ludwig","Markus","Niklas","Oliver","Patrick","Robert","Stefan","Thomas","Ulrich",
@@ -1265,7 +1265,7 @@ export const countries: CountryData[] = [
     code: "CH",
     name: "Switzerland",
     flag: "🇨🇭",
-    emailDomains: ["gmail.com", "bluewin.ch", "gmx.ch", "hotmail.ch", "sunrise.ch", "hispeed.ch"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexander","Beat","Christoph","Daniel","Erwin","Felix","Gottfried","Hans","Ivan","Jakob",
       "Karl","Ludwig","Martin","Niklaus","Urs","Patrick","Rudolf","Stefan","Thomas","Ulrich",
@@ -1355,7 +1355,7 @@ export const countries: CountryData[] = [
     code: "CZ",
     name: "Czech Republic",
     flag: "🇨🇿",
-    emailDomains: ["gmail.com", "seznam.cz", "email.cz", "centrum.cz", "quick.cz", "atlas.cz"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Adam","Jakub","Tomáš","Jan","Martin","Lukáš","Petr","Pavel","Marek","Filip",
       "Radek","Ondřej","Michal","David","Jiří","Václav","Karel","Milan","Vladimír","Zdeněk",
@@ -1441,7 +1441,7 @@ export const countries: CountryData[] = [
     code: "HU",
     name: "Hungary",
     flag: "🇭🇺",
-    emailDomains: ["gmail.com", "freemail.hu", "hotmail.hu", "citromail.hu", "t-online.hu", "vipmail.hu"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Adam","Bálint","Csaba","Dávid","Emil","Ferencz","Gábor","Henrik","Imre","János",
       "Károly","László","Mátyás","Norbert","Oszkár","Péter","Roland","Sándor","Tamás","Ulrik",
@@ -1530,7 +1530,7 @@ export const countries: CountryData[] = [
     code: "RO",
     name: "Romania",
     flag: "🇷🇴",
-    emailDomains: ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "mail.ro", "clicknet.ro"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Alexandru","Bogdan","Cătălin","Dan","Emil","Florin","Gheorghe","Horațiu","Ion","Lucian",
       "Mihai","Nicolai","Octavian","Petre","Radu","Silviu","Tudor","Valentin","Adrian","Cosmin",
@@ -1616,7 +1616,7 @@ export const countries: CountryData[] = [
     code: "BG",
     name: "Bulgaria",
     flag: "🇧🇬",
-    emailDomains: ["gmail.com", "abv.bg", "mail.bg", "hotmail.com", "yahoo.com", "dir.bg"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aleksander","Bozhidar","Dimitar","Georgi","Hristo","Ivo","Kamen","Lyubomir","Mihail","Nikolay",
       "Plamen","Radoslav","Stanimir","Teodor","Valentin","Vladislav","Yordan","Zahari","Atanas","Blagovest",
@@ -1701,7 +1701,7 @@ export const countries: CountryData[] = [
     code: "SK",
     name: "Slovakia",
     flag: "🇸🇰",
-    emailDomains: ["gmail.com", "azet.sk", "pobox.sk", "hotmail.sk", "outlook.sk", "centrum.sk"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Adam","Branislav","Dávid","Ján","Lukáš","Marek","Martin","Maroš","Michal","Miroslav",
       "Peter","Patrik","Radoslav","Richard","Róbert","Stanislav","Štefan","Tomáš","Vladimir","Zdeněk",
@@ -1788,7 +1788,7 @@ export const countries: CountryData[] = [
     code: "HR",
     name: "Croatia",
     flag: "🇭🇷",
-    emailDomains: ["gmail.com", "net.hr", "t.ht.hr", "vip.hr", "hotmail.com", "yahoo.com"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Ante","Bruno","Domagoj","Filip","Goran","Ivan","Josip","Karlo","Luka","Marko",
       "Nikola","Oškar","Petar","Robert","Stjepan","Tomislav","Vedran","Zoran","Andrija","Davor",
@@ -1872,7 +1872,7 @@ export const countries: CountryData[] = [
     code: "RS",
     name: "Serbia",
     flag: "🇷🇸",
-    emailDomains: ["gmail.com", "yahoo.com", "hotmail.com", "sbb.rs", "eunet.rs", "beotel.rs"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aleksandar","Bojan","Darko","Đorđe","Filip","Goran","Igor","Jovan","Luka","Marko",
       "Nikola","Ognjen","Petar","Radoslav","Stefan","Vladimir","Zoran","Dejan","Dragan","Dusan",
@@ -1956,7 +1956,7 @@ export const countries: CountryData[] = [
     code: "UA",
     name: "Ukraine",
     flag: "🇺🇦",
-    emailDomains: ["gmail.com", "ukr.net", "i.ua", "bigmir.net", "mail.ua", "yandex.ua"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aleksandr","Bogdan","Denis","Dmytro","Evhen","Filipp","Grygoriy","Hryhoriy","Ihor","Ivan",
       "Kostyantin","Leonid","Maksym","Mykhailo","Nazar","Oleksandr","Pavlo","Roman","Serhiy","Taras",
@@ -2038,7 +2038,7 @@ export const countries: CountryData[] = [
     code: "IE",
     name: "Ireland",
     flag: "🇮🇪",
-    emailDomains: ["gmail.com", "eircom.net", "yahoo.ie", "hotmail.com", "outlook.ie", "iolfree.ie"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aidan","Brendan","Ciarán","Declan","Eoin","Fionn","Gavin","Henry","Ian","James",
       "Kevin","Liam","Michael","Niall","Owen","Patrick","Ronan","Seán","Thomas","Ultan",
@@ -2114,7 +2114,7 @@ export const countries: CountryData[] = [
     code: "LT",
     name: "Lithuania",
     flag: "🇱🇹",
-    emailDomains: ["gmail.com", "delfi.lt", "mail.lt", "gmail.lt", "inbox.lt", "one.lt"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Andrius","Aurimas","Darius","Gintautas","Jonas","Kęstutis","Lukas","Mantas","Mindaugas","Robertas",
       "Saulius","Tomas","Vytautas","Egidijus","Edvardas","Irmantas","Juozas","Karolis","Linas","Marius",
@@ -2191,7 +2191,7 @@ export const countries: CountryData[] = [
     code: "LV",
     name: "Latvia",
     flag: "🇱🇻",
-    emailDomains: ["gmail.com", "inbox.lv", "apollo.lv", "one.lv", "mail.ru", "delfi.lv"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Aigars","Andris","Artūrs","Dāvis","Edgars","Gints","Harijs","Ingus","Jānis","Kārlis",
       "Māris","Normunds","Oskars","Pēteris","Rihards","Sandis","Toms","Uģis","Vilnis","Aleksandrs",
@@ -2268,7 +2268,7 @@ export const countries: CountryData[] = [
     code: "EE",
     name: "Estonia",
     flag: "🇪🇪",
-    emailDomains: ["gmail.com", "mail.ee", "hot.ee", "inbox.ee", "gmail.ee", "outlook.com"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Andres","Jaan","Kalev","Markus","Mikk","Peeter","Siim","Taavi","Urmas","Veikko",
       "Alar","Erki","Hannes","Ingvar","Jüri","Kaido","Lauri","Madis","Margus","Priit",
@@ -2344,7 +2344,7 @@ export const countries: CountryData[] = [
     code: "SI",
     name: "Slovenia",
     flag: "🇸🇮",
-    emailDomains: ["gmail.com", "siol.net", "volja.net", "t-2.net", "amis.net", "hotmail.com"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Andrej","Bojan","Damjan","Edvard","Filip","Goran","Igor","Janez","Klemen","Luka",
       "Marko","Neven","Oto","Primož","Robert","Simon","Tomaž","Urban","Vid","Zdravko",
@@ -2426,7 +2426,7 @@ export const countries: CountryData[] = [
     code: "US",
     name: "United States",
     flag: "🇺🇸",
-    emailDomains: ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com", "aol.com", "protonmail.com"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "James","John","Robert","Michael","William","David","Richard","Joseph","Thomas","Charles",
       "Christopher","Daniel","Matthew","Anthony","Mark","Donald","Steven","Paul","Andrew","Joshua",
@@ -2517,7 +2517,7 @@ export const countries: CountryData[] = [
     code: "CA",
     name: "Canada",
     flag: "🇨🇦",
-    emailDomains: ["gmail.com", "yahoo.ca", "hotmail.ca", "outlook.com", "rogers.com", "bell.net", "shaw.ca"],
+    emailDomains: ["gmail.com"],
     maleNames: [
       "Liam","Noah","Oliver","William","Ethan","James","Benjamin","Lucas","Mason","Logan",
       "Alexander","Elijah","Jacob","Daniel","Sebastian","Jack","Aiden","Jackson","Owen","Samuel",
