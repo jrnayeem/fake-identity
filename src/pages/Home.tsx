@@ -769,7 +769,7 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <p>Generated data is entirely fictional. For testing and development purposes only.</p>
+        <p>Generated data is entirely fictional. For testing and development purposes only. &copy Md Jubaer Rahman &Phone 01767-248131</p>
       </footer>
     </div>
   );
