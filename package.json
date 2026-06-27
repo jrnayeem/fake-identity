@@ -1,0 +1,26 @@
+{
+  "name": "fakenames",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@tanstack/react-query": "^5.80.5",
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "framer-motion": "^12.15.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "wouter": "^3.3.5"
+  }
+}
