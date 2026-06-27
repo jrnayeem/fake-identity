@@ -769,11 +769,11 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-      <p>
-        Generated data is entirely fictional. For testing and development purposes only.
-        {" "}© {new Date().getFullYear()} Md Jubaer Rahman | Phone:
-        <a href="tel:+8801767248131"> 01767-248131</a>
-      </p>
+        <p>
+          Generated data is entirely fictional. For testing and development purposes only.{" "}
+          © {new Date().getFullYear()} Md Jubaer Rahman | Phone:{" "}
+          <a href="tel:+8801767248131">01767-248131</a>
+        </p>
       </footer>
     </div>
   );
